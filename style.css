@@ -1,13 +1,38 @@
-.welcome-section{
-  background-color: #EEEEEE;
+.welcome-section {
+  background-color: #eeeeee;
 }
 
-
-section{
+section {
   padding: 20px 0px;
 }
 
-.short-info{
-  background-color: #08A793;
-  color:white;
+.short-info {
+  background-color: #08a793;
+  color: white;
+}
+
+/*Carousel CSS*/
+
+.my-carousel {
+  background-color: #eeeeee;
+}
+
+/*indicator transparent on tablets and smaller devices*/
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color:rgba(0,0,0,0);
+}
+
+/*indicator opaque on laptop and larger devices*/
+@media (min-width: 992px) {
+  .carousel-indicators {
+    bottom: -5%;
+    right: 36%;
+  }
+
+  .carousel-indicators li{
+    background-color: #707070;
+  }
 }
