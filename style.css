@@ -1,10 +1,9 @@
 
+/* ================= user-defined sections ====================== */
+
+/* 6. welcome section */
 .welcome-section {
   background-color: #eeeeee;
-}
-
-section {
-  padding: 20px 0px;
 }
 
 /* 8. short-info section */
@@ -13,15 +12,7 @@ section {
   color: white;
 }
 
-/* 11. email-submission section */
-.email-submission{
-  background-color:#30448B;
-  color:white;
-  padding: 20px 10px 10px 10px;
-}
-
-/*Carousel CSS*/
-
+/* 10. carousel section */
 .my-carousel {
   background-color: #eeeeee;
 }
@@ -45,3 +36,38 @@ section {
     background-color: #707070;
   }
 }
+
+/* 11. email-submission section */
+.email-submission{
+  background-color:#30448B;
+  color:white;
+  padding: 20px 10px 10px 10px;
+}
+
+/* 12. footer section */
+.pg-footer{
+  background-color: #eeeeee;
+}
+
+/* ============================ global =========================== */
+
+/* tags */
+
+section {
+  padding: 20px 0px;
+}
+
+/* user-defined classes */
+
+.my-header{
+  color:#30448B;
+  font-weight: bold;
+}
+
+
+
+/*
+NOTES:
+
+1. Use visible-* and hidden-* classes to use two different containers.
+*/
