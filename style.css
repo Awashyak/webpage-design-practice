@@ -1,6 +1,13 @@
 
 /* ================= user-defined sections ====================== */
 
+/* 1. social-media section */
+.social-media{
+  background-color: #eee;
+}
+
+/* 3. nav-bar section */
+
 /* 6. welcome section */
 .welcome-section {
   background-color: #eeeeee;
@@ -57,14 +64,21 @@ section {
   padding: 20px 0px;
 }
 
+a{
+  color:black;
+}
+
+/* bootstrap classes */
+.navbar{
+  background-color:#30448B;
+}
+
 /* user-defined classes */
 
 .my-header{
   color:#30448B;
   font-weight: bold;
 }
-
-
 
 /*
 NOTES:

@@ -30,13 +30,51 @@
 
   <body>
     <div class="container">
-      <!-- 1. Header -->
+      <!-- fix the 2 column part-->
+      <!-- 1. Social Media -->
+      <section class="social-media">
+        <div class="container-fluid">
+          <div
+            class="row justify-content-center justify-content-md-end text-center"
+          >
+            <div class="col-xs-6 col-md-2"><a href="#">Facebook</a></div>
+            <div class="col-xs-6 col-md-2"><a href="#">Twitter</a></div>
+          </div>
+        </div>
+      </section>
 
-      <!-- 2. Social Media -->
+      <!-- 3. Navigation Bar -->
+      <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+        <!--logo-->
+        <a href="#" class="d-lg-none navbar-band" style="color:white">Grand Academy</a>
 
-      <!-- 3. Logo and Contact Information -->
+        <!--toggle button-->
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbar-menu"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
 
-      <!-- 4. Navigation Bar -->
+        <!--collapse on small screens-->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link mx-3 active" href="#">Home</a>
+            <a class="nav-item nav-link mx-3" href="#">About</a>
+            <a class="nav-item nav-link mx-3" href="#">Admission</a>
+            <a class="nav-item nav-link mx-3" href="#">Program</a>
+            <a class="nav-item nav-link mx-3" href="#">News</a>
+            <a class="nav-item nav-link mx-3" href="#">Contact</a>
+          </div>
+          <div class="navbar-nav">
+            <a class="nav-item nav-link mx-3" href="#">Student Life</a>
+            <a class="nav-item nav-link mx-3" href="#">Faculty and Staff</a>
+          </div>
+        </div>
+
+        <!--test-->
+      </nav>
 
       <!-- 5. Welcome Image-->
       <section class="welcome-image">
