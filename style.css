@@ -1,16 +1,15 @@
-
 /* ================= user-defined sections ====================== */
 
 /* 1. social-media section */
-.social-media{
+.social-media {
   background-color: #eee;
 }
 
 /* 2. header section */
-@media (max-width: 1202px) {                  
-   .my-header {
-      display: none;
-   }
+@media (max-width: 1202px) {
+  .my-header {
+    display: none;
+  }
 }
 
 /* 3. nav-bar section */
@@ -36,7 +35,7 @@
   width: 8px;
   height: 8px;
   border-radius: 100%;
-  background-color:rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 /*indicator opaque on laptop and larger devices*/
@@ -46,20 +45,20 @@
     right: 36%;
   }
 
-  .carousel-indicators li{
+  .carousel-indicators li {
     background-color: #707070;
   }
 }
 
 /* 11. email-submission section */
-.email-submission{
-  background-color:#30448B;
-  color:white;
+.email-submission {
+  background-color: #30448b;
+  color: white;
   padding: 20px 10px 10px 10px;
 }
 
 /* 12. footer section */
-.pg-footer{
+.pg-footer {
   background-color: #eeeeee;
 }
 
@@ -71,51 +70,89 @@ section {
   padding: 20px 0px 20px 0px;
 }
 
-a{
-  color:black;
+a {
+  color: black;
+}
+
+ul{
+  list-style:none;
 }
 
 /* -----  bootstrap classes -----  */
-.navbar{
-  background-color:#30448B;
+.navbar {
+  background-color: #30448b;
 }
 
 /* -----  user-defined id/classes -----  */
 
-.my-icon{
-  width:45px;
-  height:45px;
+.my-icon {
+  width: 45px;
+  height: 45px;
 }
 
-.my-btn-container{
-  height:100px;
+.my-btn-container {
+  height: 100px;
 }
 
-.my-btn{
-  height:100%;
+.my-btn {
+  height: 100%;
 }
 
-.img-area{
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction:row;
-  align-items:center;
-  justify-content:center;
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.single-img{
-  padding:10px;
+.single-img {
+  padding: 10px;
 }
 
-.gallery-img{
-  width:290;
-  height:160px;
+.gallery-img {
+  width: 290;
+  height: 160px;
 }
 
-.gallery-img:hover{
-  opacity: .5;
-  transition: .2s;
+.gallery-img:hover {
+  opacity: 0.5;
+  transition: 0.2s;
 }
+
+#event-img:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.date-text {
+  color: #707070;
+}
+
+.ellipsis {
+  overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+
+#event-box{
+  background-color:grey ;
+  color:white;
+}
+
+.date-display{
+  display:inline-block;
+  text-align:center;
+  width:55px;
+  height:55px;
+  padding:4px;
+  margin:8px;
+  background-color:#30448B;
+  color:white;
+}
+
 
 /*
 NOTES:
