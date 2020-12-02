@@ -6,6 +6,13 @@
   background-color: #eee;
 }
 
+/* 2. header section */
+@media (max-width: 1202px) {                  
+   .my-header {
+      display: none;
+   }
+}
+
 /* 3. nav-bar section */
 
 /* 6. welcome section */
@@ -58,7 +65,7 @@
 
 /* ============================ global =========================== */
 
-/* tags */
+/* ----- tags ----- */
 
 section {
   padding: 20px 0px;
@@ -68,18 +75,25 @@ a{
   color:black;
 }
 
-/* bootstrap classes */
+/* -----  bootstrap classes -----  */
 .navbar{
   background-color:#30448B;
 }
 
-/* user-defined classes */
+/* -----  user-defined id/classes -----  */
 
-.my-header{
-  color:#30448B;
-  font-weight: bold;
+.my-icon{
+  width:45px;
+  height:45px;
 }
 
+.my-btn-container{
+  height:100px;
+}
+
+.my-btn{
+  height:100%;
+}
 /*
 NOTES:
 

@@ -30,15 +30,84 @@
 
   <body>
     <div class="container">
-      <!-- fix the 2 column part-->
       <!-- 1. Social Media -->
       <section class="social-media">
         <div class="container-fluid">
-          <div
-            class="row justify-content-center justify-content-md-end text-center"
-          >
-            <div class="col-xs-6 col-md-2"><a href="#">Facebook</a></div>
-            <div class="col-xs-6 col-md-2"><a href="#">Twitter</a></div>
+          <div class="row justify-content-md-end text-center">
+            <div class="col col-md-2"><a href="#">Facebook</a></div>
+            <div class="col col-md-2"><a href="#">Twitter</a></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Header Section -->
+      <section class="my-header">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- logo section -->
+            <div class="col-3">
+              <img src="img/logo.png" alt="logo" />
+            </div>
+
+            <!-- other section -->
+            <div class="d-none d-xl-block col-9 align-self-center">
+              <div class="row justify-content-end">
+                <!--1st item-->
+                <div class="col-3">
+                  <div class="row">
+                    <!--icon -->
+                    <div class="col-lg-3 align-self-center">
+                      <img
+                        class="my-icon"
+                        src="img/calendar-icon.svg"
+                        alt="icon"
+                      />
+                    </div>
+                    <!-- info -->
+                    <div class="col-9">
+                      <span style="font-weight: bold">View Calendar<br /></span>
+                      Ashoj 2077
+                    </div>
+                  </div>
+                </div>
+
+                <!--2nd item-->
+                <div class="col-3">
+                  <div class="row">
+                    <!--icon -->
+                    <div class="col-lg-3 align-self-center">
+                      <img
+                        class="my-icon"
+                        src="img/phone-icon.svg"
+                        alt="icon"
+                      />
+                    </div>
+                    <!-- info -->
+                    <div class="col-9">
+                      <span style="font-weight: bold">Contact us<br /></span>
+                      Ashoj 2077
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3rd item-->
+                <div class="col-4">
+                  <div class="row">
+                    <!--icon -->
+                    <div class="col-lg-3 align-self-center">
+                      <img class="my-icon" src="img/mail-icon.svg" alt="icon" />
+                    </div>
+                    <!-- info -->
+                    <div class="col-9">
+                      <span style="font-weight: bold">Email us<br /></span>
+                      <span style="word-wrap: break-word">
+                        grand@cademy.edu.np
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -46,7 +115,9 @@
       <!-- 3. Navigation Bar -->
       <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
         <!--logo-->
-        <a href="#" class="d-lg-none navbar-band" style="color:white">Grand Academy</a>
+        <a href="#" class="d-lg-none navbar-band" style="color: white"
+          >Grand Academy</a
+        >
 
         <!--toggle button-->
         <button
@@ -455,6 +526,72 @@
       </section>
 
       <!-- 11. Gallery -->
+      <section class="my-gallery">
+        <div class="container-fluid">
+          <!-- Title -->
+          <div class="row">
+            <div class="col-12 text-center">
+              <h3>Gallery</h3>
+              <hr />
+            </div>
+          </div>
+
+          <!-- Buttons -->
+          <div class="row">
+            <!-- For Tablets and Greater -->
+            <div
+              class="d-none d-sm-block col-sm-12 col-md-12 offset-lg-2 col-lg-8 offset-lg-2"
+            >
+              <div class="row justify-content-center">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                  <button type="button" class="my-btn btn btn-primary btn-block">
+                    Students
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                  <button type="button" class="my-btn btn btn-primary btn-block">
+                    School Amenities
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                  <button type="button" class="my-btn btn btn-primary btn-block">
+                    Parent's Day
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                  <button type="button" class="my-btn btn btn-primary btn-block">
+                    Extra
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- For Mobiles and Smaller -->
+            <div class="offset-2 col-8 offset-2">
+              <div class="row justify-content-center">
+                <div
+                  class=" btn-group d-sm-none"
+                  role="group"
+                >
+                  <button type="button" class="my-btn btn btn-primary">
+                    Students
+                  </button>
+                  <button type="button" class="my-btn btn btn-primary">
+                    School Amenities
+                  </button>
+                  <button type="button" class="my-btn btn btn-primary">
+                    Parent's Day
+                  </button>
+                  <button type="button" class="my-btn btn btn-primary">
+                    Extra
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image Section -->
+        </div>
+      </section>
 
       <!-- 12. Email Submission -->
       <section class="email-submission">
@@ -496,7 +633,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="row">
                 <div class="col-12">
-                  <h5 class="my-header">About Us</h5>
+                  <h5>About Us</h5>
                 </div>
               </div>
               <div class="row">
@@ -514,7 +651,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="row">
                 <div class="col-12">
-                  <h5 class="my-header">Links</h5>
+                  <h5>Links</h5>
                 </div>
               </div>
               <div class="row">
@@ -531,7 +668,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="row">
                 <div class="col-12">
-                  <h5 class="my-header">Events</h5>
+                  <h5>Events</h5>
                 </div>
               </div>
               <div class="row">
@@ -546,7 +683,7 @@
             <div class="col-md-6 col-lg-3">
               <div class="row">
                 <div class="col-12">
-                  <h5 class="my-header">Get in Touch</h5>
+                  <h5>Get in Touch</h5>
                 </div>
               </div>
               <div class="row">
