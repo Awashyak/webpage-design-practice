@@ -68,7 +68,7 @@
 /* ----- tags ----- */
 
 section {
-  padding: 20px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 a{
@@ -94,6 +94,29 @@ a{
 .my-btn{
   height:100%;
 }
+
+.img-area{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+}
+
+.single-img{
+  padding:10px;
+}
+
+.gallery-img{
+  width:290;
+  height:160px;
+}
+
+.gallery-img:hover{
+  opacity: .5;
+  transition: .2s;
+}
+
 /*
 NOTES:
 
