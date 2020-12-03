@@ -17,6 +17,7 @@
 /* 6. welcome section */
 .welcome-section {
   background-color: #eeeeee;
+  font-size: 1rem;
 }
 
 /* 8. short-info section */
@@ -64,18 +65,79 @@
 
 /* ============================ global =========================== */
 
+/* ----- fonts ----- */
+
+/* anything smaller than 500px screen*/
+html{
+  font-size:13px;
+}
+
+@media screen and (min-width: 500px){
+  html{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 570px){
+  html{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 620px){
+  html{
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 680px){
+  html{
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 720px){
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 800px){
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 860px){
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 920px){
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1000px){
+  html{
+    font-size: 18px;
+  }
+}
+
 /* ----- tags ----- */
 
-section {
-  padding: 20px 0px 20px 0px;
+* {
+  box-sizing: border-box;
 }
+
+
 
 a {
   color: black;
 }
 
-ul{
-  list-style:none;
+ul {
+  list-style: none;
+}
+
+/* section header */
+h2{
+  font-weight: 600;
+  color:#30448B;
 }
 
 /* -----  bootstrap classes -----  */
@@ -84,6 +146,10 @@ ul{
 }
 
 /* -----  user-defined id/classes -----  */
+
+#main-body-wrapper{
+  max-width:1280px;
+}
 
 .my-icon {
   width: 45px;
@@ -111,8 +177,8 @@ ul{
 }
 
 .gallery-img {
-  width: 290;
-  height: 160px;
+  width: 280;
+  height: 150px;
 }
 
 .gallery-img:hover {
@@ -131,29 +197,47 @@ ul{
 
 .ellipsis {
   overflow: hidden;
-text-overflow: ellipsis;
-display: -webkit-box;
--webkit-line-clamp: 3;
--webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
-#event-box{
-  background-color:grey ;
-  color:white;
+#event-box {
+  background-color: grey;
+  color: white;
 }
 
-.date-display{
-  display:inline-block;
-  text-align:center;
-  width:55px;
-  height:55px;
-  padding:4px;
-  margin:8px;
-  background-color:#30448B;
-  color:white;
+.date-display {
+  display: inline-block;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  padding: 4px;
+  margin: 8px;
+  background-color: #30448b;
+  color: white;
 }
 
+#footer-title{
+  color:#30448B;
+  font-weight:600;
+}
 
+.welcome-section,
+.principal-message,
+.short-info,
+.news-event,
+.my-carousel,
+.my-gallery,
+.email-submission,
+.pg-footer {
+  padding: 20px;
+}
+
+.email-submission p{
+  margin:0px;
+}
 /*
 NOTES:
 
