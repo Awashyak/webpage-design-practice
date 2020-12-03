@@ -12,12 +12,19 @@
   }
 }
 
+.my-header{
+  font-size:0.7rem;
+}
+
 /* 3. nav-bar section */
 
 /* 6. welcome section */
 .welcome-section {
   background-color: #eeeeee;
-  font-size: 1rem;
+}
+
+.welcome-section h1 {
+  padding-bottom:2rem;
 }
 
 /* 8. short-info section */
@@ -26,9 +33,14 @@
   color: white;
 }
 
+.short-info p {
+  margin:0rem;
+}
+
 /* 10. carousel section */
 .my-carousel {
   background-color: #eeeeee;
+  margin-top:3rem;
 }
 
 /*indicator transparent on tablets and smaller devices*/
@@ -124,8 +136,6 @@ html{
   box-sizing: border-box;
 }
 
-
-
 a {
   color: black;
 }
@@ -143,6 +153,23 @@ h2{
 /* -----  bootstrap classes -----  */
 .navbar {
   background-color: #30448b;
+}
+
+.btn{
+  background-color: #30448B !important;
+}
+
+.btn:hover{
+  background-color: #405AB5 !important;
+}
+
+#green-btn{
+  background-color: #08A793 !important;
+}
+
+#green-btn:hover{
+  background-color: #088474 !important;
+  transition: .2s;
 }
 
 /* -----  user-defined id/classes -----  */
@@ -237,6 +264,32 @@ h2{
 
 .email-submission p{
   margin:0px;
+}
+
+#custom-hr{
+  width:5rem;
+  height:.12rem;
+  background-color: #707070;
+}
+
+.principal-message hr{
+  margin:1rem 0rem;
+}
+
+#custom-btn-group{
+  padding:2rem;
+}
+
+#info-container{
+  padding:1rem 1.5rem;
+}
+
+.my-carousel .container-fluid{
+  padding: 3rem;
+}
+
+#other-header{
+  margin-top:2rem;
 }
 /*
 NOTES:
