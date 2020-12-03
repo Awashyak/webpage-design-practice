@@ -12,8 +12,8 @@
   }
 }
 
-.my-header{
-  font-size:0.7rem;
+.my-header {
+  font-size: 0.7rem;
 }
 
 /* 3. nav-bar section */
@@ -24,7 +24,7 @@
 }
 
 .welcome-section h1 {
-  padding-bottom:2rem;
+  padding-bottom: 2rem;
 }
 
 /* 8. short-info section */
@@ -34,13 +34,13 @@
 }
 
 .short-info p {
-  margin:0rem;
+  margin: 0rem;
 }
 
 /* 10. carousel section */
 .my-carousel {
   background-color: #eeeeee;
-  margin-top:3rem;
+  margin-top: 3rem;
 }
 
 /*indicator transparent on tablets and smaller devices*/
@@ -80,52 +80,52 @@
 /* ----- fonts ----- */
 
 /* anything smaller than 500px screen*/
-html{
-  font-size:13px;
+html {
+  font-size: 13px;
 }
 
-@media screen and (min-width: 500px){
-  html{
+@media screen and (min-width: 500px) {
+  html {
     font-size: 14px;
   }
 }
-@media screen and (min-width: 570px){
-  html{
+@media screen and (min-width: 570px) {
+  html {
     font-size: 15px;
   }
 }
-@media screen and (min-width: 620px){
-  html{
+@media screen and (min-width: 620px) {
+  html {
     font-size: 16px;
   }
 }
-@media screen and (min-width: 680px){
-  html{
+@media screen and (min-width: 680px) {
+  html {
     font-size: 17px;
   }
 }
-@media screen and (min-width: 720px){
-  html{
+@media screen and (min-width: 720px) {
+  html {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 800px){
-  html{
+@media screen and (min-width: 800px) {
+  html {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 860px){
-  html{
+@media screen and (min-width: 860px) {
+  html {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 920px){
-  html{
+@media screen and (min-width: 920px) {
+  html {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 1000px){
-  html{
+@media screen and (min-width: 1000px) {
+  html {
     font-size: 18px;
   }
 }
@@ -145,9 +145,9 @@ ul {
 }
 
 /* section header */
-h2{
+h2 {
   font-weight: 600;
-  color:#30448B;
+  color: #30448b;
 }
 
 /* -----  bootstrap classes -----  */
@@ -155,27 +155,27 @@ h2{
   background-color: #30448b;
 }
 
-.btn{
-  background-color: #30448B !important;
+.btn {
+  background-color: #30448b !important;
 }
 
-.btn:hover{
-  background-color: #405AB5 !important;
+.btn:hover {
+  background-color: #405ab5 !important;
 }
 
-#green-btn{
-  background-color: #08A793 !important;
+#green-btn {
+  background-color: #08a793 !important;
 }
 
-#green-btn:hover{
+#green-btn:hover {
   background-color: #088474 !important;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 /* -----  user-defined id/classes -----  */
 
-#main-body-wrapper{
-  max-width:1280px;
+#main-body-wrapper {
+  max-width: 1280px;
 }
 
 .my-icon {
@@ -246,9 +246,9 @@ h2{
   color: white;
 }
 
-#footer-title{
-  color:#30448B;
-  font-weight:600;
+#footer-title {
+  color: #30448b;
+  font-weight: 600;
 }
 
 .welcome-section,
@@ -262,35 +262,54 @@ h2{
   padding: 20px;
 }
 
-.email-submission p{
-  margin:0px;
+.email-submission p {
+  margin: 0px;
 }
 
-#custom-hr{
-  width:5rem;
-  height:.12rem;
+#custom-hr {
+  width: 5rem;
+  height: 0.12rem;
   background-color: #707070;
 }
 
-.principal-message hr{
-  margin:1rem 0rem;
+.principal-message hr {
+  margin: 1rem 0rem;
 }
 
-#custom-btn-group{
-  padding:2rem;
+#custom-btn-group {
+  padding: 2rem;
 }
 
-#info-container{
-  padding:1rem 1.5rem;
+#info-container {
+  padding: 1rem 1.5rem;
 }
 
-.my-carousel .container-fluid{
+.my-carousel .container-fluid {
   padding: 3rem;
 }
 
-#other-header{
-  margin-top:2rem;
+#other-header {
+  margin-top: 2rem;
 }
+
+#navbar-links a{
+  padding: 1rem;
+}
+
+#navbar-links a:hover {
+  color: #08a793 !important;
+}
+
+#navbar-links a:active {
+  color: #08a793 !important;
+  border-top: .25rem solid;
+}
+
+#navbar-links a.active {
+  color: #08a793 !important;
+  border-top: .25rem solid;
+}
+
 /*
 NOTES:
 
